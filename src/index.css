@@ -1,0 +1,72 @@
+/* filepath: c:\Projetos\Story Make Ana Júlia\story-maker-portfolio\src\index.css */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+/* Remova @tailwind base; etc. e qualquer outro CSS aqui por enquanto */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background: #FAF8F5;
+    color: #5C4A32;
+  }
+}
+
+@layer utilities {
+  .font-serif-main {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-body {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .portfolio-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .portfolio-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(92, 74, 50, 0.12);
+  }
+
+  .nav-link {
+    position: relative;
+  }
+
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1.5px;
+    background: #8B7355;
+    transition: width 0.3s ease;
+  }
+
+  .nav-link:hover::after {
+    width: 100%;
+  }
+
+  .btn-primary {
+    transition: all 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(92, 74, 50, 0.2);
+  }
+
+  .testimonial-card {
+    transition: transform 0.3s ease;
+  }
+
+  .testimonial-card:hover {
+    transform: scale(1.02);
+  }
+}
