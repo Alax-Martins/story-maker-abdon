@@ -3,18 +3,18 @@ import { Layers, PenTool, BarChart3 } from 'lucide-react'
 const services = [
   {
     icon: Layers,
-    title: 'Design de Stories',
-    text: 'Templates personalizados que traduzem a identidade visual da sua marca em cada frame.',
+    title: 'Stories que contam momentos',
+    text: 'Criações delicadas e personalizadas para transformar cada fase do seu evento em uma experiência única e memorável.',
   },
   {
     icon: PenTool,
-    title: 'Copywriting',
-    text: 'Textos estratégicos que engajam, geram conexão e levam seu público à ação.',
+    title: 'Textos que emocionam',
+    text: 'Frases, roteiros e legendas personalizadas para transmitir exatamente o que seu momento merece — com sensibilidade e significado. ',
   },
   {
     icon: BarChart3,
     title: 'Estratégia',
-    text: 'Planejamento de conteúdo alinhado aos objetivos do seu negócio e comportamento do público.',
+    text: 'Planejamento estratégico de conteúdo, unindo minha visão à do cliente para atingir resultados alinhados às espectativas certas.',
   },
 ]
 
