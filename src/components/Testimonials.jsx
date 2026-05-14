@@ -2,14 +2,14 @@ import { Star } from 'lucide-react'
 
 const testimonials = [
   {
-    text: 'Meus stories nunca mais foram os mesmos. O engajamento triplicou e as vendas pelo Instagram cresceram 40%!',
-    author: 'Juliana Mendes',
-    client: '@marca.beauty',
+    text: 'Aiii, Ana, que lindo! Tô chorando aqui, muito obrigada. Ficou perfeito... ❤️❤️❤️',
+    author: 'Beatriz Nunes',
+    client: '@Beatriiz_nunes',
   },
   {
-    text: 'Profissionalismo impecável. Entregou exatamente a identidade que eu queria para minha marca nos stories.',
-    author: 'Rafael Costa',
-    client: '@studio.co',
+    text: 'Obrigadaaa, amei muito ❤️ Já assistir aquele vídeo do Feed umas mil vezes. Não canso de rever, vou guardar pra sempre.',
+    author: 'Sarah Larrubyanne',
+    client: '@sarahlarrubyanne',
   },
 ]
 
