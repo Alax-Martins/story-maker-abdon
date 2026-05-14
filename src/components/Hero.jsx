@@ -10,13 +10,13 @@ export default function Hero() {
 
       <div className="max-w-3xl text-center relative z-10">
         <p className="text-mocha font-light tracking-[0.3em] uppercase text-sm mb-6">
-          ✦ Story Maker ✦
+          ✦ Ana Júlia Abdon ✦
         </p>
 
         <h1 className="font-serif-main text-5xl sm:text-6xl md:text-7xl font-semibold leading-tight mb-6 text-espresso">
-          Sua marca merece
+          Sua história merece
           <br />
-          uma boa história
+          ser resgistrada com excelência.
         </h1>
 
         <p className="text-mocha font-light text-lg sm:text-xl max-w-xl mx-auto mb-10 leading-relaxed">
