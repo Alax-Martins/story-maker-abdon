@@ -1,4 +1,5 @@
 import { Camera } from 'lucide-react'
+import minhaImagem from '../assets/jujuba_don.jpg'
 
 export default function About() {
   return (
@@ -9,11 +10,12 @@ export default function About() {
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center text-offwhite/90">
                 <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-offwhite/20 flex items-center justify-center">
-                  <Camera size={40} />
+                  <Camera size={0} />
                 </div>
-                <p className="font-serif-main text-xl italic">Sua foto aqui</p>
+                <p className="font-serif-main text-xl italic"></p>
               </div>
             </div>
+            <img src={minhaImagem} alt="Minha foto" className="w-full h-full object-cover rounded-2xl" />
           </div>
         </div>
 
@@ -23,11 +25,12 @@ export default function About() {
             Olá, prazer!
           </h2>
           <p className="text-mocha/80 font-light leading-relaxed mb-6">
-            Sou Story Maker e ajudo marcas a se posicionarem no digital através de stories autênticos e estratégicos.
-            Meu trabalho une design, copywriting e storytelling para criar conteúdos que geram conexão real com o público.
+            Me chamo Ana Júlia, tenho 20 anos e trabalho no ramo de Storymaker profissional, com experiência no registro de momentos inesqueciveis.
+            Minha paixão é transformar emoções em vídeos que contarão a história do seu grande dia para sempre.
+            Cada evento é único, e estou sempre em busca de capturar a essência de cada momento em vídeos autênticos e espontâneos.
           </p>
 
-          <div className="grid grid-cols-3 gap-6 mt-10">
+          {/* <div className="grid grid-cols-3 gap-6 mt-10">
             <div className="text-center">
               <p className="font-serif-main text-3xl font-semibold text-espresso">150+</p>
               <p className="text-xs text-mocha/60 font-light mt-1 uppercase tracking-wider">Clientes</p>
@@ -40,7 +43,7 @@ export default function About() {
               <p className="font-serif-main text-3xl font-semibold text-espresso">5+</p>
               <p className="text-xs text-mocha/60 font-light mt-1 uppercase tracking-wider">Anos</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
