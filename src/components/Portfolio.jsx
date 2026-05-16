@@ -3,7 +3,7 @@ import video2 from '../assets/videos/jantar_de_noivado.mp4';
 import video3 from '../assets/videos/aniversario_alice.mp4';
 import video4 from '../assets/videos/cha_de_panela.mp4';
 import video5 from '../assets/videos/casamento_civil.mp4';
-import video6 from '../assets/videos/niver_maria_eduarda.mp4'; 
+import video6 from '../assets/videos/niver_maria_eduarda.mp4';
 
 const items = [
   {
@@ -38,7 +38,7 @@ const items = [
   },
   {
     title: 'Aniversário',
-    client: '@organica.vida',
+    client: '@consuelosilvestre',
     bg: 'from-sand/60 to-mocha/10',
     video: video6
   },
@@ -53,11 +53,11 @@ export default function Portfolio() {
           <h2 className="font-serif-main text-4xl sm:text-5xl font-semibold text-espresso">Portfólio</h2>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-          {items.map((item, index) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {items.map((item) => (
             <div key={item.title} className="flex flex-col items-center">
               <div
-                className={`portfolio-card rounded-2xl overflow-hidden aspect-9/16 bg-linear-to-br ${item.bg} ${index >= 3 ? 'hidden lg:block' : ''}`}
+                className={`portfolio-card rounded-2xl overflow-hidden aspect-9/16 bg-linear-to-br ${item.bg}`}
               >
                 <video src={item.video} controls className="w-full h-full object-cover rounded-2xl" />
               </div>
